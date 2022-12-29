@@ -1,0 +1,15 @@
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.csproj.AssemblyReference.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.GeneratedMSBuildEditorConfig.editorconfig
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.AssemblyInfoInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.AssemblyInfo.cs
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.csproj.CoreCompileInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\bin\Debug\net7.0\TryClasses.exe
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\bin\Debug\net7.0\TryClasses.deps.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\bin\Debug\net7.0\TryClasses.runtimeconfig.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\bin\Debug\net7.0\TryClasses.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\bin\Debug\net7.0\TryClasses.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\refint\TryClasses.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\TryClasses.genruntimeconfig.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\TryClasses\obj\Debug\net7.0\ref\TryClasses.dll
