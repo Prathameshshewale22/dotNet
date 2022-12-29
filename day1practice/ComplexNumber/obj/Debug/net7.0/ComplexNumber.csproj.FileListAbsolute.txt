@@ -1,0 +1,15 @@
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.csproj.AssemblyReference.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.GeneratedMSBuildEditorConfig.editorconfig
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.AssemblyInfoInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.AssemblyInfo.cs
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.csproj.CoreCompileInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\bin\Debug\net7.0\ComplexNumber.exe
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\bin\Debug\net7.0\ComplexNumber.deps.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\bin\Debug\net7.0\ComplexNumber.runtimeconfig.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\bin\Debug\net7.0\ComplexNumber.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\bin\Debug\net7.0\ComplexNumber.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\refint\ComplexNumber.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ComplexNumber.genruntimeconfig.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\ComplexNumber\obj\Debug\net7.0\ref\ComplexNumber.dll

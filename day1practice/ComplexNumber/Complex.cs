@@ -1,4 +1,4 @@
-using Maths;
+namespace Maths;
 
 public class Complex{
     private int real;
@@ -7,6 +7,11 @@ public class Complex{
     public Complex(int r,int i){
         this.real=r;
         this.imag=i;
+    }
+
+    public Complex(){
+        this.real=0;
+        this.imag=0;
     }
    
    public int Real{
@@ -19,6 +24,13 @@ public class Complex{
     set{this.imag=value;}
    }
 
+
+   public static Complex operator+ (Complex c1,Complex c2){
+    Complex temp=new Complex();
+    temp.real=c1.real+c2.real;
+    temp.imag=c1.imag+c2.imag;
+    return temp;
+   }
    
 
 }
