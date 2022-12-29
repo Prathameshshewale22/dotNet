@@ -1,0 +1,15 @@
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\bin\Debug\net7.0\HelloWorldApp.exe
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\bin\Debug\net7.0\HelloWorldApp.deps.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\bin\Debug\net7.0\HelloWorldApp.runtimeconfig.json
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\bin\Debug\net7.0\HelloWorldApp.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\bin\Debug\net7.0\HelloWorldApp.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.csproj.AssemblyReference.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.AssemblyInfoInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.AssemblyInfo.cs
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.csproj.CoreCompileInputs.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\refint\HelloWorldApp.dll
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.pdb
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\HelloWorldApp.genruntimeconfig.cache
+E:\cdac\pg-dac\dotNet\dotNet\day1practice\HelloWorldApp\obj\Debug\net7.0\ref\HelloWorldApp.dll
