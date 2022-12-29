@@ -51,4 +51,10 @@ public void WithDrawAmt(double amt){
   }
 }
 
+    public override string ToString()
+    {
+        return "name: "+this.name+" accountType: "+this.accountType+" balance: "+this.balance;
+    }
+
+
 }

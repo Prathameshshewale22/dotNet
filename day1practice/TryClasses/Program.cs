@@ -20,7 +20,8 @@ while(!flag){
 
     case 2:
     foreach(Account theAcc in accounts){
-        Console.WriteLine("acc-"+theAcc.Name+" "+theAcc.AccountType+" "+theAcc.Balance);
+        // Console.WriteLine("acc-"+theAcc.Name+" "+theAcc.AccountType+" "+theAcc.Balance);
+        Console.WriteLine(theAcc);
     }
      break;
     case 3:
