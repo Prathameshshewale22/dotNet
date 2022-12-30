@@ -1,11 +1,142 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Billing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Billing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Billing.dll": {}
+        }
+      },
+      "Catalog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.dll": {}
+        }
+      },
+      "CRM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CRM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.dll": {}
+        }
+      },
+      "HR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.dll": {}
+        }
+      },
+      "MemberShip/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MemberShip.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MemberShip.dll": {}
+        }
+      },
+      "OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.dll": {}
+        }
+      },
+      "Shipment/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Shipment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shipment.dll": {}
+        }
+      },
+      "ShoppingCart/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Billing/1.0.0": {
+      "type": "project",
+      "path": "../Billing/Billing.csproj",
+      "msbuildProject": "../Billing/Billing.csproj"
+    },
+    "Catalog/1.0.0": {
+      "type": "project",
+      "path": "../Catalog/Catalog.csproj",
+      "msbuildProject": "../Catalog/Catalog.csproj"
+    },
+    "CRM/1.0.0": {
+      "type": "project",
+      "path": "../CRM/CRM.csproj",
+      "msbuildProject": "../CRM/CRM.csproj"
+    },
+    "HR/1.0.0": {
+      "type": "project",
+      "path": "../HR/HR.csproj",
+      "msbuildProject": "../HR/HR.csproj"
+    },
+    "MemberShip/1.0.0": {
+      "type": "project",
+      "path": "../MemberShip/MemberShip.csproj",
+      "msbuildProject": "../MemberShip/MemberShip.csproj"
+    },
+    "OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing/OrderProcessing.csproj",
+      "msbuildProject": "../OrderProcessing/OrderProcessing.csproj"
+    },
+    "Shipment/1.0.0": {
+      "type": "project",
+      "path": "../Shipment/Shipment.csproj",
+      "msbuildProject": "../Shipment/Shipment.csproj"
+    },
+    "ShoppingCart/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart/ShoppingCart.csproj",
+      "msbuildProject": "../ShoppingCart/ShoppingCart.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Billing >= 1.0.0",
+      "CRM >= 1.0.0",
+      "Catalog >= 1.0.0",
+      "HR >= 1.0.0",
+      "MemberShip >= 1.0.0",
+      "OrderProcessing >= 1.0.0",
+      "Shipment >= 1.0.0",
+      "ShoppingCart >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dell\\.nuget\\packages\\": {}
@@ -31,7 +162,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj"
+            },
+            "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj": {
+              "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

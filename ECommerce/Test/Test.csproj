@@ -1,5 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\MemberShip\MemberShip.csproj" />
+    <ProjectReference Include="..\Billing\Billing.csproj" />
+    <ProjectReference Include="..\Catalog\Catalog.csproj" />
+    <ProjectReference Include="..\CRM\CRM.csproj" />
+    <ProjectReference Include="..\HR\HR.csproj" />
+    <ProjectReference Include="..\OrderProcessing\OrderProcessing.csproj" />
+    <ProjectReference Include="..\Shipment\Shipment.csproj" />
+     <ProjectReference Include="..\ShoppingCart\ShoppingCart.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>

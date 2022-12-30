@@ -4,6 +4,430 @@
     "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Test\\Test.csproj": {}
   },
   "projects": {
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj",
+        "projectName": "Billing",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj",
+        "projectName": "Catalog",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj",
+        "projectName": "CRM",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj",
+        "projectName": "HR",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj",
+        "projectName": "MemberShip",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj",
+        "projectName": "OrderProcessing",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj",
+        "projectName": "Shipment",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj",
+        "projectName": "ShoppingCart",
+        "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +449,32 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Billing\\Billing.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Catalog\\Catalog.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\CRM\\CRM.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\HR\\HR.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\MemberShip\\MemberShip.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\OrderProcessing\\OrderProcessing.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\Shipment\\Shipment.csproj"
+              },
+              "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj": {
+                "projectPath": "E:\\cdac\\pg-dac\\dotNet\\dotNet\\ECommerce\\ShoppingCart\\ShoppingCart.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
