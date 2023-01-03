@@ -26,12 +26,12 @@ public static class Utility{
 
     }
 
-    public static void StoredData(List<Student>st){
+    public static void StoredData(List<Student> st){
         try{
 
             var options=new JsonSerializerOptions {IncludeFields=true};
             var jsondata=JsonSerializer.Serialize<List<Student>>(st,options);
-            string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day5\Day5\studnet.json";
+            string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day5\Day5\stud.json";
             File.WriteAllText(fileName,jsondata);
             Console.WriteLine("data added in file");
 
@@ -46,7 +46,7 @@ public static class Utility{
 
     public static List<Student> GetDataFromFile(){
         var options=new JsonSerializerOptions {IncludeFields=true};
-         string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day5\Day5\studnet.json";
+         string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day5\Day5\stud.json";
          string jsondata= File.ReadAllText(fileName);
          List<Student> st=JsonSerializer.Deserialize<List<Student>>(jsondata);
          return st;

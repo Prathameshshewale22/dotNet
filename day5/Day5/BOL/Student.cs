@@ -17,7 +17,7 @@ public class Student
     
 public Student()
     {
-         Sid = 1;
+        Sid = 1;
         FirstName = "Prathamesh";
         LastName = "shewale";
         Birthdate = new DateTime(1996,10,22);
