@@ -12,7 +12,7 @@ Studentlist.Add(s2);
 bool flag=false;
 while(!flag){
     Console.WriteLine("Enter the choice");
-    Console.WriteLine("1.Add Studnet/2.getAll/3.getById/4.delete student record/5.stored data in file/6.retrive data from file/8.exit");
+    Console.WriteLine("1.Add Studnet/2.getAll/3.getById/4.delete student record/5.stored data in file/6.retrive data from file/7.update FirstName/8.exit");
     int choice=Convert.ToInt32(Console.ReadLine());
     switch (choice)
     {
@@ -36,6 +36,7 @@ while(!flag){
             Student studbyid=Utility.GetById(Convert.ToInt32(Console.ReadLine()),Studentlist);
             Console.WriteLine("found Student="+studbyid);
         break;
+        
         case 4:
         Console.WriteLine("enter the Studnet id ");
         bool fflag=Utility.deleteReacord(Convert.ToInt32(Console.ReadLine()),Studentlist);
@@ -66,7 +67,10 @@ while(!flag){
         break;
 
         case 7:
-
+        //update Firstname
+        Console.WriteLine("enter id,change name");
+        Student st1=Utility.UpdateName(Convert.ToInt32(Console.ReadLine()),Console.ReadLine(),Studentlist);
+        Console.WriteLine(st1);
         break; 
 
         case 8:

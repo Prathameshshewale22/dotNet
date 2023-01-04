@@ -52,4 +52,16 @@ public static class Utility{
          return st;
         
     }
+
+    public static Student UpdateName(int id,string fname,List<Student> stud){
+      foreach(Student s in stud){
+        if(s.Sid==id){
+            s.FirstName=fname;
+            return s;
+        }
+        
+      }
+      return null;
+
+    }
 }
