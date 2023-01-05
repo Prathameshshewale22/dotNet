@@ -143,7 +143,7 @@ while(!flag){
 bool flag4=false;
     while(!flag4){
         Console.WriteLine("enter choice");
-        Console.WriteLine("1.add obj/2.remove /3.display/4.exit");
+        Console.WriteLine("1.add obj/2.remove /3.display/4.sort/5.exit");
         switch(Int32.Parse(Console.ReadLine())){
             case 1:
             //add in dictionary
@@ -170,7 +170,7 @@ bool flag4=false;
             case 4:
             //sort 
             SortedDictionary<int,Student> sortedDictionary=new SortedDictionary<int, Student>(Studs);
-            foreach(Student st in Studs.Values){
+            foreach(Student st in sortedDictionary.Values){
                  Console.WriteLine(st);
              }
             break;
