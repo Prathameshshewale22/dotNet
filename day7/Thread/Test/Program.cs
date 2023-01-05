@@ -51,6 +51,9 @@ Thread newThread=Thread.CurrentThread;
 Console.WriteLine("thread= "+newThread.ManagedThreadId);
 Console.WriteLine("thread= "+newThread.Name);
  itopration();
-// proopration();
-// seropration();
+
+ //another way to invoke delegate
+ proopration.Invoke();
+
+//  IAsyncResult res=seropration.BeginInvoke((result)=>{},null);
 
