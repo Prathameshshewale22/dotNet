@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentRegistration.Models;
 using bussinesslayer;
+
 using DataLayer;
 
 namespace StudentRegistration.Controllers;
@@ -46,11 +47,12 @@ public class HomeController : Controller
         return View();
     }
 
+    
     public IActionResult Validate(string email,string password){
          StudnetBusinessLayer std=new StudnetBusinessLayer();
          if(std.validate(email,password)){
             Console.WriteLine("in if");
-            return Redirect("/home/Privacy");
+            return Redirect("/home");
          }
           return View() ; 
     }
