@@ -1,0 +1,71 @@
+﻿
+    @model IEnumerable<DataLayer.Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+  
+
+<h2>Student Details</h2>
+
+<style>
+    table, th, td
+   {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table tr:nth-child(odd)
+    {
+         background-color: #ffe6e6;
+    }
+    table tr:nth-child(even)
+    {
+          background-color: #ccffcc;
+    }
+</style>
+<table style="font-family:Arial; font-size:medium; color:darkblue">
+    <tr>      
+          <th>
+                @Html.DisplayNameFor(model => model.Sid)
+           </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=> model.Email)
+            </th>
+      </tr>
+
+     @foreach (var item in Model)
+       {
+           <tr>
+                <td>
+                     @Html.DisplayFor(modelItem => item.Sid)
+                </td>
+                <td>
+                      @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                 <td>
+                      @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                @*
+                <td>
+                      @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                      @Html.DisplayFor(modelItem => item.Salary)
+                </td> *@
+                @* <td>
+                      @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ })|
+                      @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })|
+                      @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                 </td> *@
+           </tr>
+         }
+</table>
+</div>
