@@ -2,11 +2,13 @@
 @{
     ViewData["List"]="student list";
 }
+ 
 
 <h1>Students</h1>
 <div class="text-center">
 
     @{
+      int  count=1;
        List<Student> stud=(List<Student>)ViewData["listOfStudent"];
 
            
@@ -14,33 +16,23 @@
         <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">SrNo</th>
       <th scope="col">StudentId</th>
       <th scope="col">Name</th>
       <th scope="col">Email</th>
     </tr>
   </thead>
   <tbody>
+    
      @foreach (Student item in stud)
             {
     <tr>
-      <th scope="row">1</th>
+      <th scope="row">@count</th> 
       <td>@item.Sid</td>
       <td>@item.Name</td>
       <td>@item.Email</td>
     </tr>
-    @* <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr> *@
+     count=count+1;
      }
   </tbody>
 </table>
