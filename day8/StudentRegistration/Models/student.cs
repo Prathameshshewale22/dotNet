@@ -1,6 +1,7 @@
 namespace DataLayer;
 
 
+[Serializable]
 public class Student{
     
 
@@ -11,6 +12,9 @@ public class Student{
 
     public string Password{get;set;}
 
+public Student(){
+    
+}
     public Student(string name, int sid, string email, string password)
     {
         Name = name;

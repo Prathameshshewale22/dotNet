@@ -15,6 +15,7 @@ public bool insertData(int sid,string name,string email,string password){
 }
 
 public List<Student> getData(){
+    Console.WriteLine("in getdatamethod");
     students.ForEach((st)=>{Console.WriteLine(st);});
     return students;
 }

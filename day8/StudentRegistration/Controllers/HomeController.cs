@@ -47,6 +47,13 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult StudentList(){
+        StudnetBusinessLayer std=new StudnetBusinessLayer();
+        List<Student> studes=std.getData();
+        ViewData["listOfStudent"]=studes;
+        return View();
+    }
+
     
     public IActionResult Validate(string email,string password){
          StudnetBusinessLayer std=new StudnetBusinessLayer();
