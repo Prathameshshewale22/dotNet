@@ -1,0 +1,18 @@
+@using BusinessObjectLayer;
+@{
+    ViewData["Title"] = "Product List Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    @{
+        List<Product> Products=(List<Product>)ViewData["list"];
+
+        <ol>
+            @foreach(Product prod in Products){
+                <li><a href="/Products/Details/@prod.Pid">@prod.Pname</a></li>
+            }
+        </ol>
+    }
+    
+</div>

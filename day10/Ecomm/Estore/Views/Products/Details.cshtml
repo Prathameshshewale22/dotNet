@@ -1,0 +1,19 @@
+@using BusinessObjectLayer;
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Product</h1>
+    @{
+         Product p=(Product)ViewData["product"];
+        <p>Product id: <b>@p.Pid</b></p>
+        <p>Product Name: <b> @p.Pname</b></p>
+        <p>Product Price: <b> @p.Price</b></p>
+        <p>Product Quntity:<b> @p.Quntity</b></p>
+        <p>Product Description:<b> @p.Description</b></p>
+        <a href="#">AddToCart</a>
+    }
+    
+  
+</div>
