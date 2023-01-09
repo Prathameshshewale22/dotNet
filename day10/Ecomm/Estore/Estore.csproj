@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccesslayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\BusinessObjectlayer\BusinessObjectLayer.csproj" />
+    <ProjectReference Include="..\BusinessLogiclayer\BusinessLogicLayer.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
