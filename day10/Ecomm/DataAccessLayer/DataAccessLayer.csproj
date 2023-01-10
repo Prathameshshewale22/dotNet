@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessObjectLayer\BusinessObjectLayer.csproj" />
+     <PackageReference Include="mysql.data" Version="8.0.31" />
   </ItemGroup>
 
   <PropertyGroup>

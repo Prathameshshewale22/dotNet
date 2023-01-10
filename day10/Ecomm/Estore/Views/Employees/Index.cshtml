@@ -1,0 +1,39 @@
+﻿@using BusinessObjectLayer;
+@{
+    ViewData["Title"] = "Index Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Departments</h1>
+    @{
+        List<Employee> emps=(List<Employee>)ViewData["emps"];
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+     <th scope="col">DeptId</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (Employee item in emps)
+    {
+    <tr>
+      <th scope="row">@item.Id</th>
+      <td>@item.FirstName</td>
+      <td>@item.LastName</td>
+      <td>@item.Email</td>
+      <td>@item.Address</td> 
+      <td>@item.DeptId</td>
+    </tr>
+    }
+    
+  </tbody>
+</table>
+           
+     }
+  
+</div>

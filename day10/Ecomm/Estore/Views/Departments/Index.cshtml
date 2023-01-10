@@ -1,0 +1,19 @@
+﻿@using BusinessObjectLayer;
+@{
+    ViewData["Title"] = "Index Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Departments</h1>
+    @{
+        List<Department> dept=(List<Department>)ViewData["depts"];
+            <ol>
+                @foreach (Department item in dept)
+                {
+                    <li><a href="/Employees/Index/@item.Id">@item.Name</a></li>
+                    
+                }
+            </ol>
+     }
+  
+</div>

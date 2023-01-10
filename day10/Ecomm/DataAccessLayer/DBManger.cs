@@ -33,4 +33,9 @@ public static class DBManager
           return allprod; 
     } 
 
+    // public static List<Product> GetDataFromDataBase(){
+    //     List<Product> allproduct=
+    //     return allproduct; 
+    // }
+
 }

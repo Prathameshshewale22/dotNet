@@ -14,12 +14,11 @@ public class CatalogManager
      public Product GetProdctById(int id){
         List<Product> AllProduct=DBManager.GetAllProducts();
 
-//         Product prod=(Product)from p in AllProduct
-//                      where p.Pid==id
-//                      select p;
+        // Product prod=(Product)from p in AllProduct
+        //              where p.Pid==id
+        //              select p;
 // Console.WriteLine(prod);
          Product prod=AllProduct.Find((prod)=>prod.Pid==id);
-        // Console.WriteLine(prod);
          return prod;            
     }
 
