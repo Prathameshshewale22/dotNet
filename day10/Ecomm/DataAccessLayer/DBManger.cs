@@ -27,7 +27,7 @@ public static class DBManager
 
     public static List<Product> GetDataFromJsonFile(){
         // var options=new JsonSerializerOptions {IncludeFields=true};
-        string filename=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day10\Ecomm\Product.json";
+        string filename=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\day10\Ecomm\Product.json";
         var jsondata=File.ReadAllText(filename);
           List<Product> allprod=JsonSerializer.Deserialize<List<Product>>(jsondata);
           return allprod; 

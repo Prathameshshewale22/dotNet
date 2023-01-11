@@ -19,7 +19,7 @@ public class ProductsController : Controller
         CatalogManager CM=new CatalogManager();
 
         List<Product> list=CM.GetAllProduct();
-
+    //    CM.InsertProducts(list);
         ViewData["List"]=list;
 
         return View();
@@ -27,8 +27,23 @@ public class ProductsController : Controller
 
     public IActionResult Details(int id){
     CatalogManager CM=new CatalogManager(); 
-     ViewData["product"]=(Product)CM.GetProdctById(id);
+      ViewData["product"]=(Product)CM.GetProdctById(id);
       return View();
+    }
+
+
+   public IActionResult AddData(){
+    Product newProd=new Product();
+    return View();
+   }
+
+    [HttpPost]
+    public IActionResult AddData(Product prod){
+        List<Product> prods=new List<Product>();
+        prods.Add(prod);
+        CatalogManager CM=new CatalogManager(); 
+        CM.InsertProducts(prods);
+        return Redirect("Index");
     }
 
 }

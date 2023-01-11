@@ -7,6 +7,7 @@
     <h1 class="display-4">Products</h1>
     @{
         List<Product> Products=(List<Product>)ViewData["list"];
+            <a href="/products/AddData"><button type="button" name="btn" id="btn">AddProduct</button></a>
 
         <ol>
             @foreach(Product prod in Products){
