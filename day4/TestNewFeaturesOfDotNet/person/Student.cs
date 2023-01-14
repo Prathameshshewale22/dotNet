@@ -14,7 +14,7 @@ public class Student:ICloneable{
     }
 
     public new void Display(){
-Console.WriteLine("In student display");
+    Console.WriteLine("In student display");
     } 
 
     public object Clone(){

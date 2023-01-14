@@ -23,7 +23,7 @@ public void StoredData(){
         try{
             var options=new JsonSerializerOptions{IncludeFields=true};
             var jsondata=JsonSerializer.Serialize<List<Student>>(students,options);
-            string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\dotNet\day8\StudentRegistration\studnet.json";
+            string fileName=@"E:\cdac\pg-dac\dotNet\localRepo_dotnet\dotnet\day8\StudentRegistration\studnet.json";
             File.WriteAllText(fileName,jsondata);
             Console.WriteLine("data added in file");
         }
