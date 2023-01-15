@@ -1,29 +1,47 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import Services from './Services';
 import {Link} from 'react-router-dom';
 
-export class Product extends Component {
-  static displayName = Product.name;
+export  const Product=()=>{
+  let[prods,setprods]=useState([]);
 
-  constructor(props) {
-    super(props);
-    this.state = { products: [], loading: true };
-    this.deleteData = this.deleteData.bind(this);
+  useEffect(()=>{
+    Services.getallproduct().then((resp)=>{
+      console.log(resp.data);
+      setprods(resp.data);
+    }).catch((err)=>{console.log(err)});
+  },[])
+
+   const deleteData=(pid)=>{
+    console.log("in delete")
+          Services.delete(pid).then((resp)=>{console.log(resp.data)}).catch(()=>{});
   }
 
-  componentDidMount() {
-    this.populateProductData();
-  }
+  const renderlist=()=> {
+    return prods.map((product) =>{
+            return <tr key={product.pid}>
+              <td>{product.pid}</td>
+              <td>{product.pname}</td>
+              <td>{product.description}</td>
+              <td>{product.price}</td>
+              <td>{product.quntity}</td>
+              <td><button type="button" name="btn1" id="btn1" class="btn btn-danger" onClick={()=>deleteData(product.pid)}>delete</button></td>
+            </tr>
+            }
+            )}
+  
 
-  //   deleteData=(pid)=>{
-  //   console.log("in delete")
-  //         Services.delete(pid).then((resp)=>{console.log(resp.data)}).catch(()=>{});
+  // render=()=>{
+  //   // let contents = this.state.loading
+  //   //   ? <p><em>Loading...</em></p>
+  //   //   : Product.renderProductsTable(this.state.products);
   // }
 
-  static renderProductsTable(products) {
     return (
       <div>
-      <Link to="/Addproduct">
+        <h1 id="tableLabel">Products List</h1>
+        <p>This component demonstrates fetching data from the server.</p>
+        <Link to="/Addproduct">
       <button type="button" name="btn" id="btn">addproduct</button>
       </Link>
       <table className="table table-striped" aria-labelledby="tableLabel">
@@ -37,40 +55,8 @@ export class Product extends Component {
           </tr>
         </thead>
         <tbody>
-          {products.map(product =>
-            <tr key={product.pid}>
-              <td>{product.pid}</td>
-              <td>{product.pname}</td>
-              <td>{product.description}</td>
-              <td>{product.price}</td>
-              <td>{product.quntity}</td>
-              <td><button type="button" name="btn1" id="btn1" class="btn btn-danger" onClick={()=>this.deleteData(product.pid)}>delete</button></td>
-            </tr>
-          )}
+         {renderlist()}
         </tbody>
-      </table>
+       </table>
       </div>
-    );
-  }
-
-  render() {
-    let contents = this.state.loading
-      ? <p><em>Loading...</em></p>
-      : Product.renderProductsTable(this.state.products);
-
-    return (
-      <div>
-        <h1 id="tableLabel">Products List</h1>
-        <p>This component demonstrates fetching data from the server.</p>
-        {contents}
-      </div>
-    );
-  }
-
-  async populateProductData() {
-    Services.getallproduct().then((resp)=>{
-      console.log(resp.data);
-      this.setState({products:resp.data , loading:false})
-    }).catch(()=>{})
-  }
-}
+    )}
