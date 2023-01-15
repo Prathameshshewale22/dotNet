@@ -8,15 +8,17 @@ export class Product extends Component {
   constructor(props) {
     super(props);
     this.state = { products: [], loading: true };
+    this.deleteData = this.deleteData.bind(this);
   }
 
   componentDidMount() {
     this.populateProductData();
   }
 
-   deleteData(pid){
-          Services.delete(pid).then((resp)=>{console.log(resp.data)}).cath(()=>{});
-  }
+  //   deleteData=(pid)=>{
+  //   console.log("in delete")
+  //         Services.delete(pid).then((resp)=>{console.log(resp.data)}).catch(()=>{});
+  // }
 
   static renderProductsTable(products) {
     return (

@@ -12,7 +12,7 @@ export var Addproduct=()=>{
     
     }
     var navigator=useNavigate();
-    const senddata=(prodob)=>{
+    const senddata=()=>{
         console.log(prodob);
         Services.Addproduct(prodob).then((resp)=>{console.log(resp.data)}).catch(()=>{});
          navigator("/products");
