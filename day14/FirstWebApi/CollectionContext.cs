@@ -5,7 +5,7 @@ using BOL;
 namespace DAL;
 
 public class CollectionContext:DbContext{
-    public DbSet<Product> products {get;set;}
+    public DbSet<Product> Products {get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
         string connstring=@"server=localhost;port=3306;user=root; password=root@123;database=test";

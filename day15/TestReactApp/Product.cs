@@ -1,4 +1,4 @@
-namespace DOL;
+namespace BOL;
 public class Product{
 
     public int Pid{get;set;}

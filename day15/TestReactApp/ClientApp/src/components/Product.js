@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Services from './Services';
 
 export class Product extends Component {
   static displayName = Product.name;
@@ -41,7 +42,7 @@ export class Product extends Component {
   render() {
     let contents = this.state.loading
       ? <p><em>Loading...</em></p>
-      : FetchData.renderProductsTable(this.state.products);
+      : Product.renderProductsTable(this.state.products);
 
     return (
       <div>
@@ -53,8 +54,9 @@ export class Product extends Component {
   }
 
   async populateProductData() {
-    const response = await fetch('products');
-    const data = await response.json();
-    this.setState({ products: data, loading: false });
+    Services.getallproduct().then((resp)=>{
+      console.log(resp.data);
+      this.setState({products:resp.data , loading:false})
+    }).catch(()=>{})
   }
 }

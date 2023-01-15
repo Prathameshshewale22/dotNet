@@ -4,11 +4,11 @@ using BOL;
 public interface IDBManager{
     List<Product> GetAll();
 
-    Product GetById(int id);
+    // Product GetById(int id);
 
-    void Insert (Product prod);
+    // void Insert (Product prod);
 
-    void Update (Product prod);
+    // void Update (Product prod);
 
-    void Delete(int id);
+    // void Delete(int id);
 }

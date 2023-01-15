@@ -1,4 +1,5 @@
-using DOL;
+using BOL;
+using DAL;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -24,7 +25,9 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.MapGet("/api/products",()=>{
-    List<Product> prods=DataAccessLayer.DAL.GetAllProducts();
+    DBManger db=new DBManger();
+    List<Product> allres=db.GetAll();
+    IEnumerable<Product> prods=allres;
     return Results.Ok(prods);
 });
 

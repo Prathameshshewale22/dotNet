@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 using DAL;
+using BOL;
 namespace TestReactApp.Controllers;
 
 [ApiController]
@@ -13,12 +15,21 @@ public class ProductsController : ControllerBase
     {
         _logger = logger;
     }
-
+    //  [HttpGet(Name = "GetProducts")]
+     [EnableCors()]
     [HttpGet]
     public IEnumerable<Product> Get()
     {
+        Console.WriteLine("in get");
         DBManger db=new DBManger();
-        return db.GetAll();
+        List<Product> allres=db.GetAll();
+        Console.WriteLine(allres);
+        return  allres;
+
+        // Product prod=new Product(1,"prod-1","test",200,5000);
+        // List<Product> prods=new List<Product>();
+        // prods.Add(prod);
+        // return prods;
 
     }
 }
