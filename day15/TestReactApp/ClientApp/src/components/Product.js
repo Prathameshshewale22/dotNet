@@ -28,6 +28,7 @@ export class Product extends Component {
         <tbody>
           {products.map(product =>
             <tr key={product.pid}>
+              <td>{product.pid}</td>
               <td>{product.pname}</td>
               <td>{product.description}</td>
               <td>{product.price}</td>
