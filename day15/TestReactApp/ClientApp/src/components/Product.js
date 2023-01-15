@@ -14,6 +14,10 @@ export class Product extends Component {
     this.populateProductData();
   }
 
+   deleteData(pid){
+          Services.delete(pid).then((resp)=>{console.log(resp.data)}).cath(()=>{});
+  }
+
   static renderProductsTable(products) {
     return (
       <div>
@@ -38,6 +42,7 @@ export class Product extends Component {
               <td>{product.description}</td>
               <td>{product.price}</td>
               <td>{product.quntity}</td>
+              <td><button type="button" name="btn1" id="btn1" class="btn btn-danger" onClick={()=>this.deleteData(product.pid)}>delete</button></td>
             </tr>
           )}
         </tbody>

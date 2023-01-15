@@ -3,7 +3,7 @@ import axios from 'axios';
  class Services{
 
     constructor(){
-        this.baseurl="http://localhost:7008/products";
+        this.baseurl="http://localhost:7008/Products";
     }
 
     getallproduct(){
@@ -13,6 +13,11 @@ import axios from 'axios';
     Addproduct(ob){
         console.log(ob);
         return axios.post(this.baseurl,ob);
+    }
+    
+    delete(pid){
+        console.log(pid);
+        return axios.delete(this.baseurl+"/"+pid);
     }
 }
 

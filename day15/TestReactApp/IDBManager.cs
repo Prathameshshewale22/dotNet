@@ -10,5 +10,5 @@ public interface IDBManager{
 
     // void Update (Product prod);
 
-    // void Delete(int id);
+     void Delete(int id);
 }

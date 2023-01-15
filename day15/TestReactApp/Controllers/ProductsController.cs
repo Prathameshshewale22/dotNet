@@ -34,4 +34,15 @@ public class ProductsController : ControllerBase
         DBManger db=new DBManger();
         db.Insert(prod);
     }
+    
+    [Route("{id}")]
+    [EnableCors()]
+    [HttpDelete]
+    public void delete(int id){
+        Console.WriteLine("indelete");
+        Console.WriteLine(id);
+        DBManger db=new DBManger();
+        db.Delete(id);
+    }
+
 }

@@ -20,4 +20,12 @@ public class DBManger:IDBManager{
         }
     }
 
+    public void Delete(int id){
+        using (var context = new CollectionContext()){
+           
+            context.products.Remove(context.products.Find(id));
+            context.SaveChanges();
+        }
+    }
+
 }
