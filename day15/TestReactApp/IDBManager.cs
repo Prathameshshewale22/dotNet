@@ -6,7 +6,7 @@ public interface IDBManager{
 
     // Product GetById(int id);
 
-    // void Insert (Product prod);
+     void Insert (Product prod);
 
     // void Update (Product prod);
 

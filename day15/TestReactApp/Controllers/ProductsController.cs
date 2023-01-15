@@ -26,10 +26,12 @@ public class ProductsController : ControllerBase
         Console.WriteLine(allres);
         return  allres;
 
-        // Product prod=new Product(1,"prod-1","test",200,5000);
-        // List<Product> prods=new List<Product>();
-        // prods.Add(prod);
-        // return prods;
-
+    }
+     [EnableCors()]
+    [HttpPost]
+    public void insert(Product prod){
+        Console.WriteLine("in insert");
+        DBManger db=new DBManger();
+        db.Insert(prod);
     }
 }

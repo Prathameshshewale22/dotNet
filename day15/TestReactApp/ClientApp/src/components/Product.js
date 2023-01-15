@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Services from './Services';
+import {Link} from 'react-router-dom';
 
 export class Product extends Component {
   static displayName = Product.name;
@@ -15,6 +16,10 @@ export class Product extends Component {
 
   static renderProductsTable(products) {
     return (
+      <div>
+      <Link to="/Addproduct">
+      <button type="button" name="btn" id="btn">addproduct</button>
+      </Link>
       <table className="table table-striped" aria-labelledby="tableLabel">
         <thead>
           <tr>
@@ -37,6 +42,7 @@ export class Product extends Component {
           )}
         </tbody>
       </table>
+      </div>
     );
   }
 

@@ -11,5 +11,13 @@ public class DBManger:IDBManager{
             return Product.ToList<Product>();
         }
     }
+     public void Insert(Product prod){
+        Console.WriteLine("in insert");
+            using (var context = new CollectionContext())
+        {
+            context.products.Add(prod);
+            context.SaveChanges();  
+        }
+    }
 
 }
