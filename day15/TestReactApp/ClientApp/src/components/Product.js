@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 export  const Product=()=>{
   let[prods,setprods]=useState([]);
+  let[flag,setflag]=useState(false);
 
   useEffect(()=>{
     Services.getallproduct().then((resp)=>{
@@ -11,10 +12,18 @@ export  const Product=()=>{
       setprods(resp.data);
     }).catch((err)=>{console.log(err)});
   },[])
+  
+  useEffect(()=>{
+    Services.getallproduct().then((resp)=>{
+      console.log(resp.data);
+      setprods(resp.data);
+    }).catch((err)=>{console.log(err)});
+  },[flag])
 
    const deleteData=(pid)=>{
     console.log("in delete")
           Services.delete(pid).then((resp)=>{console.log(resp.data)}).catch(()=>{});
+          {flag?setflag(true):setflag(false)}
   }
 
   const renderlist=()=> {
